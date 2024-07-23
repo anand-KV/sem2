@@ -1,0 +1,69 @@
+Python Packages :
+numpy:
+NumPy is a Python library used for working with arrays.
+It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+Array in Numpy is a table of elements (usually numbers), all of the same type, indexed by a tuple of positive integers. In Numpy, number of dimensions of the array is called rank of the array.A tuple of integers giving the size of the array along each dimension is known as shape of the array. An array class in Numpy is called as ndarray. 
+Function in numpy:
+-----Array creation----
+1.np.array(): 
+Create a NumPy array from a list or other array-like objects.
+
+  import numpy as np
+  ar=np.array([1,2,3])
+  print("array with rank(dimension 1):\n",ar)
+  ----output---
+  array with rank(dimension 1):
+  [1 2 3]
+2.np.arange(): 
+Create an array with evenly spaced values.
+  import numpy as n
+  ar=n.arange(1,20,3)
+  print(ar)   
+  ----output---
+  [ 1  4  7 10 13 16 19]
+3.np.empty():
+Create an array without initializing its values.
+----Array operation----    
+1.numpy.sum()
+This function returns the sum of array elements over the specified axis.
+ 
+  import numpy as np
+  ar=[2,3,8,21,-2,1]
+  print("sum of the array :\n",np.sum(ar))
+  print("sum of the unsigned intergers",np.sum(ar,dtype=np.uint8))
+  ---ouput---
+  sum of the array :
+  33
+  sum of the unsigned intergers 33
+2.np.add(): 
+Add two arrays element-wise.
+
+  import numpy as py
+  ar1=[1,2,3,4]
+  ar2=[5,6,7,8]
+  x=py.add(ar1,ar2)
+  print(x)  
+  ---ouput---
+  [ 6  8 10 12]
+----Statistical Functions------
+1.np.mean(): 
+Compute the mean of array elements.
+
+  import numpy as py
+  ar1=[1,2,3,4]
+  x=py.mean(ar1)
+  print(x)  
+  ---ouput---
+  2.5
+2.np.std(): 
+Compute the standard deviation of array elements.  
+  import numpy as py
+  ar1=[1,2,3,4]
+  x=py.std(ar1)
+  print(x)
+  ---ouput---
+  1.118033988749895
+3.np.split(): 
+Split an array into multiple sub-arrays.
+  
+  
