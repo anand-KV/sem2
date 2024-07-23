@@ -1,0 +1,16 @@
+esp8266
+turbidity sensors
+SEN0189
+ultrasonic sensors
+HC-SR04 
+pumping motor
+Mini Submersible Pumps (DC)
+motor drivers 
+L298N Motor Driver:
+
+Power Requirements:
+ESP8266: 3.3V
+HC-SR04 Sensor: 5V
+SEN0189 Sensor: 5V
+Mini Submersible Pump: 3V-6V or 12V depending on the model
+
